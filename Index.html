@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando Com Formulários</title>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <h1>Trabalhando Com Formulários</h1>
+  <hr>
+
+  <form id="orderForm">
+    <label for="name">Nome:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br><br>
+
+    <button onclick="addContact()">Adicionar Tecnologia</button>
+    <button onclick="removeContact()">Remover contato (Delete)</button>
+
+    <section id="contact-list">
+    </section>
+
+    <input type="radio" id="experience1" name="experience1" value="0-2 anos">
+    <label for="qa">Quality Assurance (QA)</label>
+
+    <input type="radio" id="experience2" name="experience2" value="3-4 anos">
+    <label for="analise_dados">Análise de Dados</label>
+
+    <input type="radio" id="experience3" name="experience3" value="5+ anos">
+    <label for="infraestrutura">Infraestrutura</label><br><br>  
+
+
+
+  </form>
+</body>
+</html>
